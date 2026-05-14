@@ -6,12 +6,12 @@
 
 - `SKILL.md`: Codex skill 的触发描述与工作流程。
 - `scripts/`: 资料清单、证据抽取、模板工作区准备和编译辅助脚本。
-- `template/`: 随 skill 打包的 `zjuthesis` 模板文件。
+- `template/`: 随 skill 打包的 `zjuthesis` 模板文件。（已拆分成template（不含字体）、fonts1、fonts2分开上传，使用时请自行解压合并）
 - `agents/openai.yaml`: Codex UI 元数据。
 
 ## 上游模板来源
 
-本仓库内 `template/` 目录基于浙江大学学位论文 LaTeX 模板 `zjuthesis`：
+本仓库内 `template(不含字体）、fonts1、fonts2` 基于浙江大学学位论文 LaTeX 模板 `zjuthesis`：
 
 - 原仓库: <https://github.com/TheNetAdmin/zjuthesis>
 - 项目主页: <https://thenetadmin.github.io/zjuthesis>
